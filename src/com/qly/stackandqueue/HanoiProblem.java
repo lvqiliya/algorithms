@@ -1,4 +1,4 @@
-package com.qly;
+package com.qly.stackandqueue;
 
 public class HanoiProblem {
 

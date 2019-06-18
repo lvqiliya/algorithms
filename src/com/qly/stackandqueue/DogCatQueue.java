@@ -1,4 +1,4 @@
-package com.qly;
+package com.qly.stackandqueue;
 
 import java.util.LinkedList;
 import java.util.Queue;
