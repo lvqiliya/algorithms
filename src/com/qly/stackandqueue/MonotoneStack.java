@@ -1,4 +1,4 @@
-package com.qly;
+package com.qly.stackandqueue;
 
 import java.util.ArrayList;
 import java.util.Stack;
