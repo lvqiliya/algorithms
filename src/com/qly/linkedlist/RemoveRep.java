@@ -20,7 +20,7 @@ import java.util.HashSet;
  * 1. 令 cur 为头节点，令 pre 为头节点，令 next = cur.next；
  * 2. 遍历所有节点，cur.value == next.value ? pre.next = next.next : pre = next；
  *
- * @author cupdata
+ * @author qly
  */
 public class RemoveRep {
     public Node removeRep1(Node head) {

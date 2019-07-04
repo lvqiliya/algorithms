@@ -12,7 +12,7 @@ import java.util.Stack;
  * 15 -> 6 -> 15，返回 true
  * 1 -> 2 -> 3，返回 false
  *
- * @author cupdata
+ * @author qly
  */
 public class Palindrome {
     public boolean isPalindrome1(Node head) {

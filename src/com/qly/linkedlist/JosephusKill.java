@@ -10,7 +10,7 @@ import com.qly.linkedlist.nodes.Node;
  * 最后的这一个节点既是头节点也是尾节点。这是遍历结束的条件。
  *
  *
- * @author cupdata
+ * @author qly
  */
 public class JosephusKill {
     public Node josephusKill1(Node head, int m) {

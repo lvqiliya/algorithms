@@ -16,7 +16,7 @@ import java.util.Stack;
  * 1. 首先找到第一个不为该值的节点，设为新的头节点；
  * 2. 然后进行遍历单链表并比较，相等则使 pre.next = cur.next，否则则使 pre = cur；
  *
- * @author cupdata
+ * @author qly
  */
 public class RemoveValue {
     public Node removeValue1(Node head, int value) {

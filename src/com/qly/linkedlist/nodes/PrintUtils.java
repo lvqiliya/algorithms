@@ -1,7 +1,7 @@
 package com.qly.linkedlist.nodes;
 
 /**
- * @author cupdata
+ * @author qly
  */
 public class PrintUtils {
     public static void printBasic(Node node) {
