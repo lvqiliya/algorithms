@@ -23,10 +23,10 @@ public class LargestRectangle {
                 height = 0;
             }
             int accumulatedWidth = 0;
-            while (!stack.isEmpty() && stack.peek().getHeight() >= height) {
+            while (!stack.isEmpty() && stack.peek().height >= height) {
                 Rect rect = stack.pop();
-                accumulatedWidth += rect.getWidth();
-                ans = Math.max(ans, rect.getHeight() * accumulatedWidth);
+                accumulatedWidth += rect.width;
+                ans = Math.max(ans, accumulatedWidth * rect.height);
             }
             stack.push(new Rect(accumulatedWidth + 1, height));
         }
@@ -34,27 +34,11 @@ public class LargestRectangle {
     }
 
     static class Rect {
-        private int width;
-        private int height;
+        int width;
+        int height;
 
         public Rect(int width, int height) {
             this.width = width;
-            this.height = height;
-        }
-
-        public int getWidth() {
-            return width;
-        }
-
-        public void setWidth(int width) {
-            this.width = width;
-        }
-
-        public int getHeight() {
-            return height;
-        }
-
-        public void setHeight(int height) {
             this.height = height;
         }
     }
